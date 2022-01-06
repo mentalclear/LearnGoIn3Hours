@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"LearnGoIn3Hours/leftpad"
+	"github.com/mentalclear/LearnGoIn3Hours/leftpad"
 )
 
 func main() {

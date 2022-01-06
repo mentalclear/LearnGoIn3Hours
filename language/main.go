@@ -1,8 +1,9 @@
 package main
 
 import (
-	"LearnGoIn3Hours/language/mapper"
 	"fmt"
+
+	"github.com/mentalclear/LearnGoIn3Hours/language/mapper"
 )
 
 func main() {
