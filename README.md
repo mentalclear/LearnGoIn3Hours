@@ -6,3 +6,13 @@
 3. Then just add that one to ~/.bashrc
 4. A module GO111MODULE needs to be off so Go would look into GOPATH for packages. Do that like so: 
 `go env -w GO111MODULE=off`
+
+### To install tird party packages
+
+Use command `go get` to install packages.
+E.g. `go get github.com/rylans/getlang`
+
+### Install dependency manager "dep"
+1. Install from here `https://golang.github.io/dep/docs/installation.html`
+2. Then run `$GOPATH/bin/dep init` to initialize the dep in a folder where you need it!
+3. If an update is needed for a package added in the .toml file run `$GOPATH/bin/dep ensure`
